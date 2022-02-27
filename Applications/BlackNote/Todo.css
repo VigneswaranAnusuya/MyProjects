@@ -1,0 +1,148 @@
+.fa{
+	font-size: 19px;
+}
+#Container{
+	// border:2px solid black;
+	height: 900px;
+	position: relative;
+}
+#Screen{
+	position: absolute;
+	border:1px solid #111111;
+	left: 36%;
+	width: 560px;
+	height: 100%;
+	background-color: #333333;
+}
+#title{
+	height: 10%;
+	overflow: hidden;
+	font-size: 30px;
+	color: #eee;
+	text-align: center;
+	line-height: 300%;
+	border-bottom: 1px solid #eee;
+}
+.SepTable{
+	vertical-align: top;
+	display: inline-block;
+	width: 95%;
+	//top: 10%;
+	height: 78%;
+	padding: 2%;
+	overflow: auto;	
+}
+
+.detail{
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	width: 220px;
+	border:1px solid #eee;
+	border-radius: 6%;
+	overflow: hidden;
+	margin: 3%;
+	color: #fff;
+}
+.important{
+	position: absolute;
+	//color: white;
+	top: 3%;
+	left: 5%;
+	width: 90%;
+}
+.content{
+	position: absolute;
+	width: 100%;
+	height: 68%;
+	font-size: 18px;
+	//border: 1px solid white;
+	top:17%;
+	text-align: center;
+	//line-height: 500%;
+	overflow: hidden;
+}
+.detailBottom{
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	//height: 0;
+}
+.movingIcon{
+	float: right;
+	//color: white;
+	margin-right:  5%;
+}
+
+#bottom{
+	position: absolute;
+	bottom: 0%;
+	height: 9%;
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+.baseIcon{
+	position: absolute;
+	font-size: 30px;
+	height: 55px;
+	width: 55px;
+	color: #eee;
+	top: 25%;
+}
+#add{
+	background-color: #0ba313;
+	border:1px solid #eee;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 55px;
+	left: 45%;
+	top: 10%;
+}
+.favorites{
+	left: 20%;
+}
+.checked{
+	left: 74%;
+}
+.fa0{
+	color: #07f214;
+}
+#new{
+	position:absolute;
+	top: 10%;
+	border:1px solid green;
+	left: 0%;
+	padding: 2.4%;
+	background-color:#eee;
+	z-index: -1;
+}
+#addingTitle{
+	height: 7%;
+	border: 1px solid black;
+	padding: 10%;
+	text-align: center;
+	display: block;
+	width: 79%;
+
+}
+#addingDescription{
+	height: 45%;
+	width: 79%;
+	border: 1px solid black;
+	padding: 10%;
+	display: block;
+	margin-top: 10%;
+}
+#cancel{
+	position: absolute;
+	display: inline-block;
+	border: 1px solid #eee;
+	font-size: 17px;
+	height: 30px;
+	color: #eee;
+	padding: 5px;
+	top: 23px;
+	right: 33px;
+	line-height: 30px;
+	display: none;
+}
