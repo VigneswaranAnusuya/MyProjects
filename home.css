@@ -1,0 +1,40 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#header{
+    border-bottom: 1.1px solid black;
+    height: 90px;
+}
+#tabs{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.box{   
+    border: 1px solid;
+    width: 250px;
+    margin: 20px;
+    height: 200px;
+    float: left;
+    padding: 3px;
+}
+.info{
+    border-bottom: 1px solid;
+    height: 160px;
+    position: relative;
+    padding: 1px;
+}
+.name{
+    font-size: 16px;
+    text-align: center;
+}
+.link{
+    height: 30px;
+    position: relative;
+    padding: 7px;
+}
+.linkVal{
+    text-align: center;
+}
