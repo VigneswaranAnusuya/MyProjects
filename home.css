@@ -8,9 +8,18 @@
     border-bottom: 1.1px solid black;
     height: 90px;
 }
+body{
+    background-color: #f7f7f7;
+}
+#mainBody{
+    background-color: #f7f7f7;
+    vertical-align:top;
+}
 #tabs{
     margin-left: 70px;
+    margin-right: 50px;
     margin-top: 30px;
+    height: 800px;
 }
 .box{   
     border: 1px solid;
@@ -19,6 +28,11 @@
     height: 200px;
     float: left;
     padding: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #bbb;
+}
+.box:hover{   
+    box-shadow: 0 0 10px #444;
 }
 .info{
     border-bottom: 1px solid;
