@@ -5,7 +5,8 @@ var home  = new function()
         {"name":"10 Sec Math Game (My Project)","link":"https://vigneswarananusuya.github.io/MyProjects/Games/MathGame/","type":"Project"},
         {"name":"JavaScript Certificate (HackerRank)","link":"https://www.hackerrank.com/certificates/86be58e519b3","type":"Certificate"},
         {"name":"Java Certificate (HackerRank)","link":"https://www.hackerrank.com/certificates/fc61b3a47a6a","type":"Certificate"},
-        {"name":"Cutshort Certified Java - Advanced","link":"https://cutshort.io/certificate/63442","type":"Certificate"}
+        {"name":"Cutshort Certified Java - Advanced","link":"https://cutshort.io/certificate/63442","type":"Certificate"},
+        {"name":"My Github Repository (Project Code)","link":"https://github.com/VigneswaranAnusuya/MyProjects","type":"Code"}
     ];
     this.boxString='<div class="info"> <div class="center name">{{name}}</div> </div> <div class="type"> <div class="typeVal">{{type}}</div> </div>';
     this.regexString=[{"title":"name","regex":"{{name}}"},{"title":"type","regex":"{{type}}"}];
