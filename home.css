@@ -7,6 +7,10 @@
 #header{
     border-bottom: 1.1px solid black;
     height: 90px;
+    position: relative;
+}
+#headerText{
+    font-size:40px;
 }
 body{
     background-color: #f7f7f7;
@@ -44,11 +48,11 @@ body{
     font-size: 16px;
     text-align: center;
 }
-.link{
+.type{
     height: 30px;
     position: relative;
     padding: 7px;
 }
-.linkVal{
+.typeVal{
     text-align: center;
 }
