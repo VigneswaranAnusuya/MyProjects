@@ -30,7 +30,7 @@ var home  = new function()
         var parent = $("#tabs");
         parent.empty();
         arr.forEach(function(val){
-            var temp =home.boxString;var htmlObject;var link;
+            var temp =home.boxString;var htmlObject;
             home.regexString.forEach(function(v){
                 temp = temp.replace(v["regex"],val[v["title"]]);
             });
